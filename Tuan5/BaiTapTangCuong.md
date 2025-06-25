@@ -87,7 +87,7 @@ colored_papaya = cv2.addWeighted(img_papaya, 0.3, grad_papaya, 0.7, 0)
 
 Trộn ảnh đu đủ gốc với gradient màu: 30% ảnh gốc + 70% màu gradient.
 
-🌈
+
 
 grad_watermelon = np.zeros_like(img_watermelon)
 for x in range(300):
